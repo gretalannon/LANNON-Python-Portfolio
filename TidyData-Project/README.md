@@ -18,7 +18,7 @@ The dataset used is included in the repository.
 
 ## Dataset Description
 
-This dataset looks at medals won in the 2008 olympics relative to the location of the athlete who won them. Rather than country, this dataset uses NUTS (Nomenclature of Territorial Units for Statistics) regions in Europe. The pre-processing steps taken prior to analysis of the data included melting the dataset such that each variable has its own column and each observation forms a row, and string cleaning to remove unwanted information cluttering up the table. 
+This dataset looks at medals won in the 2008 olympics. Each row is an athlete, and their medal is marked for which sport they participate in. The issue with this is that each individual sport forms an attribute, rather than serving as the values of one attribute--sport. The medal type then becomes jumbled as well, forming the values for these many sport attributes. The pre-processing steps taken prior to analysis of the data included melting the dataset such that each variable--sport, gender, and medal type--has its own column and each observation forms a row. Then string cleaning is used to remove unwanted information cluttering up the table.
 
 ## References  
 
