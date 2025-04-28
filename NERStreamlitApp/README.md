@@ -4,7 +4,7 @@ The purpose of this app is to allow users to utilize the named entity recognitio
 
 ## Instructions for Use:
 
-App can be accesses through web link to try out features!
+App can be accessed through web link to try out features!
 To view alongside code, clone repository and use streamlit run command in the terminal to look at app through local host.
 Be sure to pip install pandas, spacy, and streamlit.
 
