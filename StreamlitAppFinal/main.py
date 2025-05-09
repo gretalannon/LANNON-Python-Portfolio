@@ -8,7 +8,9 @@ from nltk.sentiment import SentimentIntensityAnalyzer
 nltk.download('vader_lexicon')
 
 # Bring in the data
-df = pd.read_csv("sample_product_reviews.csv")
+@st.cache_data
+def load_data():
+    df = pd.read_csv("sample_product_reviews.csv")
 
 #Title
 st.title("Design Research Review Sentiment Analyzer")
