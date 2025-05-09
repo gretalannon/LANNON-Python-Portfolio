@@ -1,12 +1,31 @@
-## NER Streamlit App
+# Email Style & Sentiment Analyzer
 
+## Project Overview
 The purpose of this app is to allow users to utilize the named entity recognition (NER) features of natural language processing to sort through the various components within their email compositions. The project uses SpaCy, a rule-based Python library which uses a statistical model and token-based approach for natural language processing.
 
-## Instructions for Use:
+## Instructions for Use
 
-App can be accessed through web link to try out features!
-To view alongside code, clone repository and use streamlit run command in the terminal to look at app through local host.
-Be sure to pip install pandas, spacy, and streamlit.
+### Requirements
+
+Ensure the following Python libraries are installed:
+
+- `pandas`  
+- `streamlit`  
+- `matplotlib`  
+- `numpy`
+- `seaborn`
+
+### To run the app locally...
+
+1. Clone the repository:  
+   `git clone https://github.com/gretalannon/LANNON-Python-Portfolio/NERStreamlitApp.git`
+
+2. Navigate to the app directory and run:  
+   `streamlit run main.py`
+
+### Or, use web link...
+
+[Click Here!](https://nerprojectgretalannon.streamlit.app/)
 
 ## App Features:
 
