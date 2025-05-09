@@ -8,7 +8,7 @@ from nltk.sentiment import SentimentIntensityAnalyzer
 nltk.download('vader_lexicon')
 
 # Bring in the data
-df = pd.read_csv("Data/sample_product_reviews.csv")
+df = pd.read_csv("sample_product_reviews.csv")
 
 #Title
 st.title("Design Research Review Sentiment Analyzer")
@@ -22,7 +22,7 @@ data_source = st.radio(
 df = None
 
 if data_source == "Use sample data":
-        df = pd.read_csv("Data/sample_product_reviews.csv")
+        df = pd.read_csv("sample_product_reviews.csv")
         st.success("Sample data loaded successfully!")
 
 elif data_source == "Upload my own CSV file":
