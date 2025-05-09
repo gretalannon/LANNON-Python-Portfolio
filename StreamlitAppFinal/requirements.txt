@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 matplotlib==3.10.3
 nltk==3.9.1
 pandas==2.2.3
