@@ -25,7 +25,7 @@ data_source = st.radio(
 df = None
 
 if data_source == "Use sample data":
-        df = pd.read_csv("sample_product_reviews.csv")
+        df = pd.read_csv(SAMPLE_CSV_PATH)
         st.success("Sample data loaded successfully!")
 
 elif data_source == "Upload my own CSV file":
